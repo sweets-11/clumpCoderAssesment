@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 import { Switch } from "@/components/ui/switch"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
-const SearchBar = ({ placeholder = "Search...", onSearch }: { placeholder?: string; onSearch?: (query: string) => void }) => {
+const SearchBar = ({ placeholder = "Search..." }: { placeholder?: string; onSearch?: (query: string) => void }) => {
     const [query, setQuery] = useState("");
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {

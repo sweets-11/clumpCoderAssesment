@@ -7,7 +7,7 @@ import {
     SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export function AppSidebar() {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
